@@ -4,13 +4,13 @@
 <script lang="ts">
 import Vue from 'vue'
 import SearchBarVue from '@/components/SearchBar.vue'
-import CardVue from '@/components/Card.vue'
+import Cards from '@/components/Cards.vue'
 export default Vue.extend({
   name: 'Home',
   components: {
-    SearchBarVue,
     /* eslint-disable */
-    CardVue
+    SearchBarVue,
+    Cards 
   }
 })
 </script>

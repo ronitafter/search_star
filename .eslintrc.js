@@ -17,5 +17,11 @@ module.exports = {
     "vue/multi-word-component-names": 0,
     "no-tabs": 0,
     "no-mixed-spaces-and-tabs": 0,
+    "vue/no-unused-components": [
+      "error",
+      {
+        ignoreWhenBindingPresent: true,
+      },
+    ],
   },
 };

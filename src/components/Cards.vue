@@ -1,11 +1,4 @@
-<script>
-/* eslint-disable */
-  export default {
-    data: () => ({
-      show: false,
-    }),
-  }
-</script>
+
 <template>
   <v-card
     class="mx-auto"
@@ -43,3 +36,11 @@
     </v-expand-transition>
   </v-card>
 </template>
+<script>
+/* eslint-disable */
+  export default {
+    data: () => ({
+      show: true,
+    }),
+  }
+</script>
